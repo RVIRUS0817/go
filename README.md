@@ -1,1 +1,7 @@
-## Go言語のお勉強場
+# go  
+
+## golang study plaza  
+
+https://go-tour-jp.appspot.com/welcome/1
+
+
