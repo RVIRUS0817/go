@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-    fmt.Print("いくつまでやってほしいのだね？: ")
+    fmt.Print("いくつまで言わせるんだね!?: ")
     var input int
     fmt.Scanf("%d", &input)
 
@@ -16,7 +16,7 @@ func main() {
     }
 }
 
-func isThreeIncluded(num int) bool {
+func ThreeIncluded(num int) bool {
     var strInt = strconv.Itoa(num)
     for k := 0; k < len([]rune(strInt)); k++ {
         if '3' == strInt[k] {
@@ -28,11 +28,13 @@ func isThreeIncluded(num int) bool {
 
 func fizzbuzz(i int) {
     adachin := "あだちん！"
+    adachinsan := "あだちん3！"
 
-    if isThreeIncluded(i) && i%3 == 0 {
-        fmt.Println(i, adachin)
-    } else if isThreeIncluded(i) {
-        fmt.Println(i, adachin)
+    if ThreeIncluded(i) && i%3 == 0 {
+        fmt.Println(i, adachinsan)
+//        fmt.Println(i, adachin+""+adachinsan)
+    } else if ThreeIncluded(i) {
+        fmt.Println(i, adachinsan)
     } else if i%3 == 0 {
         fmt.Println(i, adachin)
     } else {
