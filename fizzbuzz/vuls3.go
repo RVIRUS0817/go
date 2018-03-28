@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-    vuls := "vuls!"
-    vulssan := "vulssan!"
+    vuls := "Vuls!"
+    vulssan := "Vulssan!"
 
     for i := 1; i <= 40; i++ {
         if strings.Contains(fmt.Sprint(i), "3") {

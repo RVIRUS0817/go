@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-    fmt.Print("いくつまでvuls言わせるんだね!?: ")
+    fmt.Print("いくつまでVulsと言わせるんだね!?: ")
     var input int
     fmt.Scanf("%d", &input)
 
@@ -27,8 +27,8 @@ func ThreeIncluded(num int) bool {
 }
 
 func fizzbuzz(i int) {
-    vuls := "vuls！"
-    vulssan := "vulssan！"
+    vuls := "Vuls！"
+    vulssan := "Vulssan！"
 
     if ThreeIncluded(i) && i%3 == 0 {
         fmt.Println(i, vulssan)
