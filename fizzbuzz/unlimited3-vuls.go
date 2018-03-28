@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-    fmt.Print("いくつまで言わせるんだね!?: ")
+    fmt.Print("いくつまでvuls言わせるんだね!?: ")
     var input int
     fmt.Scanf("%d", &input)
 
