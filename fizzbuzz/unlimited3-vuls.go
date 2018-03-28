@@ -27,16 +27,16 @@ func ThreeIncluded(num int) bool {
 }
 
 func fizzbuzz(i int) {
-    adachin := "あだちん！"
-    adachinsan := "あだちん3！"
+    vuls := "バルス！"
+    vulssan := "バルスさん！"
 
     if ThreeIncluded(i) && i%3 == 0 {
-        fmt.Println(i, adachinsan)
-//        fmt.Println(i, adachin+""+adachinsan)
+        fmt.Println(i, vulssan)
+//        fmt.Println(i, vuls+""+vulssan)
     } else if ThreeIncluded(i) {
-        fmt.Println(i, adachinsan)
+        fmt.Println(i, vulssan)
     } else if i%3 == 0 {
-        fmt.Println(i, adachin)
+        fmt.Println(i, vuls)
     } else {
         fmt.Println(i)
     }
