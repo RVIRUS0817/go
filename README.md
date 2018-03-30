@@ -1,6 +1,7 @@
 # golang study plaza  
 
 https://go-tour-jp.appspot.com/list  
+https://ashitani.jp/golangtips/index.html →dicrionary  
 
 It is just a repository that I am pushing by watching a tour of Go and fizzbuzz!!   
 The basic is important!
